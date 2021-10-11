@@ -1,11 +1,11 @@
-const firstname = prompt ("Come ti chiami?");
+const firstName = prompt ("Come ti chiami?");
 
 
-const surname = prompt ("Qual è il tuo cognome?");
+const surName = prompt ("Qual è il tuo cognome?");
 
-const favcolour = prompt ("Qual è il tuo colore preferito?");
+const favColour = prompt ("Qual è il tuo colore preferito?");
 
-const password = `${firstname + surname + favcolour}21`;
+const password = `${firstName + surName + favColour}21`;
 
 console.log (password)
 
